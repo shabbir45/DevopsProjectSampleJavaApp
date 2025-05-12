@@ -59,7 +59,7 @@ pipeline {
        //stage('Scan Docker Image') {
         //    steps {
         //        script {
-         //           // Run Trivy to scan the Docker image
+                   // Run Trivy to scan the Docker image
          //           def trivyOutput = sh(script: "trivy image shabbir045/sampleappimage:latest", returnStdout: true).trim()
 
                     // Display Trivy scan results
